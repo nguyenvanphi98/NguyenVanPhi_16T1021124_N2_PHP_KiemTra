@@ -32,6 +32,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <style type="text/css">
+    body{
+        background: #0ac5d6;
+    }
 	.login-form {
 		width: 385px;
 		margin: 30px auto;
@@ -84,7 +87,8 @@
         position: relative;
         top: -11px;
         z-index: 1;
-    }   
+    }  
+     
 </style>
 </head>
 <body>
@@ -94,13 +98,13 @@
             <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" name = "username" class="form-control" placeholder="Username" required="required">				
+                    <input type="text" name = "username" class="form-control" placeholder="Username..." required="required">				
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                    <input type="password"  name = "password"  class="form-control"  placeholder="Password" required="required">				
+                    <input type="password"  name = "password"  class="form-control"  placeholder="Password..." required="required">				
                 </div>
             </div>        
             <div class="form-group">
@@ -119,11 +123,10 @@
             <p class="text-center">Login with your social media account</p>
             <div class="text-center social-btn">
                 <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i>&nbsp; Facebook</a>
-                <a href="#" class="btn btn-info"><i class="fa fa-twitter"></i>&nbsp; Twitter</a>
                 <a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
             </div>
         </form>
-        <p class="text-center text-muted small">Don't have an account? <a href="#">Sign up here!</a></p>
+        <p class="text-center text-muted small" style="color: black" > <i>Don't have an account?</i> <a href="#" style="color: black"><i>Sign up here!</i></a></p>
     </div>
 
 </body>
